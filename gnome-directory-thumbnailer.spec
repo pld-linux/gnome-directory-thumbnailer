@@ -1,7 +1,3 @@
-#
-# Conditional build:
-%bcond_without	static_libs	# static library
-#
 Summary:	GNOME thumbnailer utility to generate thumbnails for directories
 Summary(pl.UTF-8):	Narzędzie GNOME do tworzenia miniaturek dla katalogów
 Name:		gnome-directory-thumbnailer
