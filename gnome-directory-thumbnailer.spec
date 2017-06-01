@@ -1,17 +1,17 @@
 Summary:	GNOME thumbnailer utility to generate thumbnails for directories
 Summary(pl.UTF-8):	Narzędzie GNOME do tworzenia miniaturek dla katalogów
 Name:		gnome-directory-thumbnailer
-Version:	0.1.8
+Version:	0.1.9
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-directory-thumbnailer/0.1/%{name}-%{version}.tar.xz
-# Source0-md5:	b9b1042c7421bef6bc115ff3531d1e9b
+# Source0-md5:	5a217d29f159e7f0c83e79dbb419297f
 URL:		https://wiki.gnome.org/Projects/GnomeDirectoryThumbnailer
 BuildRequires:	autoconf >= 2.65
 BuildRequires:	autoconf-archive >= 2015.09.25
 BuildRequires:	automake >= 1:1.11
-BuildRequires:	gdk-pixbuf2-devel >= 2.6.0
+BuildRequires:	gdk-pixbuf2-devel >= 2.36.5
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.36.0
 BuildRequires:	gnome-desktop-devel >= 3.0
@@ -24,6 +24,9 @@ BuildRequires:	rpmbuild(macros) >= 1.592
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 Requires(post,postun):	glib2 >= 1:2.36.0
+Requires:	gdk-pixbuf2 >= 2.36.5
+Requires:	glib2 >= 1:2.36.0
+Requires:	gnome-desktop >= 3.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
