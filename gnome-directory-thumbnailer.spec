@@ -2,7 +2,7 @@ Summary:	GNOME thumbnailer utility to generate thumbnails for directories
 Summary(pl.UTF-8):	Narzędzie GNOME do tworzenia miniaturek dla katalogów
 Name:		gnome-directory-thumbnailer
 Version:	0.1.11
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-directory-thumbnailer/0.1/%{name}-%{version}.tar.xz
